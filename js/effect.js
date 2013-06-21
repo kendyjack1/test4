@@ -3,8 +3,8 @@ window.onload = function(){
 	var oLab = document.getElementById("lab");
 	var oPoint = document.getElementById("point");
 	var aLabA = oLab.getElementsByTagName("a");
-	var starsWidth = 8;   //°ëĞÇµÄ¿í¶È
-	var iStatic = false;  //ÅĞ¶Ïµã»÷¹ıÃ»
+	var starsWidth = 8;   //åŠæ˜Ÿçš„å®½åº¦
+	var iStatic = false;  //åˆ¤æ–­ç‚¹å‡»è¿‡æ²¡
 	
 	
 	for(var i=0; i<aLabA.length; i++){
