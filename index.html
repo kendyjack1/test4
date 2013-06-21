@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title></title>
+<style type="text/css">
+*{margin:0;padding:0;}
+#box{margin:100px 0 0 100px;width:400px;}
+#box span{float:left;display:inline;margin-left:10px;}
+.bg{background:url(./img/stars.png) repeat-x left bottom;width:80px;height:16px;overflow:hidden;position:relative;float:left;display:inline;}
+.stars{position:absolute;background:url(./img/stars.png) repeat-x left top;width:0;height:16px;overflow:hidden;top:0;left:0;z-index:1;}
+.lab{position:relative;z-index:9;width:80px;height:16px;overflow:hidden;}
+.lab a{float:left;display:inline;width:8px;height:16px;overflow:hidden;outline:none;}
+</style>
+</head>
+<body>
+<div id="box">
+	<div class="bg">
+		<div class="stars" id="stars"></div>
+		<div class="lab" id="lab">
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+			<a href="javascript:void(0)" target="_self"></a>
+		</div>
+	</div>
+	<span id="point">0</span>
+</div>
+<script type="text/javascript" src="js/effect.js"></script>	
+</body>
+</html>
