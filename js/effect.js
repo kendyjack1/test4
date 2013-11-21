@@ -12,7 +12,8 @@ window.onload = function(){
 		aLabA[i].onmouseover = function(){
 			if(!iStatic){
 				oStars.style.width = this.index*starsWidth + "px";
-				oPoint.innerHTML = this.index/2;
+				//oPoint.innerHTML = this.index/2;
+				oPoint.innerHTML = this.index/2+1;
 			}
 		}
 		
@@ -26,7 +27,8 @@ window.onload = function(){
 		aLabA[i].onclick = function(){
 			if(!iStatic){
 				oStars.style.width = this.index*starsWidth + "px";
-				oPoint.innerHTML = this.index/2;
+				//oPoint.innerHTML = this.index/2;
+				oPoint.innerHTML = this.index/2+1;
 				iStatic = true;
 			}
 		}
